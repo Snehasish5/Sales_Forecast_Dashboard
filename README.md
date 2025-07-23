@@ -36,47 +36,62 @@ The project uses the **Superstore Sales dataset** (`Sample_ Superstore.csv`), wh
 
 1. **Clone the repository:**
 
-   git clone https://github.com/yourusername/sales-forecast-dashboard.git
+--git clone https://github.com/yourusername/sales-forecast-dashboard.git
 
-   cd sales-forecast-dashboard
+--cd sales-forecast-dashboard
 
-Create and activate a virtual environment (recommended):
+2. **Create and activate a virtual environment (recommended):**
 
-python -m venv venv
+--python -m venv venv
+
 # Windows
-.\venv\Scripts\activate
+
+--.\venv\Scripts\activate
+
 # macOS/Linux
-source venv/bin/activate
 
-Install dependencies:
+--source venv/bin/activate
 
-pip install -r requirements.txt
+# Install dependencies:
 
-Run the Streamlit app:
+--pip install -r requirements.txt
 
-streamlit run app.py
+**Run the Streamlit app:**
 
-Open your browser at http://localhost:8501
+--streamlit run app.py
 
-📦 Requirements
-Include these in a requirements.txt:
+--Open your browser at *http://localhost:8501*
 
-streamlit
-pandas
-plotly
-prophet
+**📦 Requirements**
 
-🧑‍💻 Project Structure
+--*Include these in a requirements.txt:*
+
+-streamlit
+
+-pandas
+
+-plotly
+
+-prophet
+
+**🧑‍💻 Project Structure**
 
 sales-forecast-dashboard/
 │
+|
 ├── app.py                 # Main Streamlit app script
+|
 ├── Sample_ Superstore.csv # Dataset file
+|
 ├── requirements.txt       # Python dependencies
+|
 └── README.md              # This file
 
-🤝 Contributions
-Feel free to fork the repo, create branches, and submit pull requests! Any contributions or suggestions are welcome.
 
-📄 License
-This project is licensed under the MIT License.
+**🤝 Contributions**
+
+--Feel free to fork the repo, create branches, and submit pull requests! Any contributions or suggestions are welcome.
+
+**📄 License**
+
+--This project is licensed under the MIT License.
