@@ -11,7 +11,7 @@ st.set_page_config(page_title="Sales Forecast Dashboard", layout="wide")
 @st.cache_data
 def load_data() -> pd.DataFrame:
     df = pd.read_csv(
-        r"D:\Project\sales_forecast_dashboard\Sample_ Superstore.csv",
+        r"Sample_ Superstore.csv",
         parse_dates=['Order Date'],
         encoding='cp1252'
     )
